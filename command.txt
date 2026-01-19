@@ -1,6 +1,10 @@
-echo "# first-github26" >> README.md
+#one time or each project to start git
 git init
-git add README.md
+
+#2 Everytime yo add
+git add .
+
+
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/momenulsagor/first-github26.git
@@ -11,3 +15,7 @@ git push -u origin main
 git remote add origin https://github.com/momenulsagor/first-github26.git
 git branch -M main
 git push -u origin main
+
+git add .
+git commit -m "first commit"
+git push
